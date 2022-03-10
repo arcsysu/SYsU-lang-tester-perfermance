@@ -1,0 +1,3 @@
+ADD_SUBDIRECTORY(performance)
+ADD_SUBDIRECTORY(performance_test2021-private)
+ADD_SUBDIRECTORY(performance_test2021-public)
