@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 // Brainfuck Interpreter
 // Reads program from stdin, interprets and outputs to stdout.
 //

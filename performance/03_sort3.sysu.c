@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 const int base = 16;
 
 int getMaxNum(int n, int arr[]){

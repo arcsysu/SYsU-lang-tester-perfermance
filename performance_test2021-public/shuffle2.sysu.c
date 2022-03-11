@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int hashmod;
 
 const int maxn = 10000000;

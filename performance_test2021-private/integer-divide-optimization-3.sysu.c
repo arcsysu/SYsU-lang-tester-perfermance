@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 //gcc integer-divide-optimization.c sylib.c -include sylib.h -Wall -Wno-unused-result -o binary-integer-divide-optimization && time ./binary-integer-divide-optimization < integer-divide-optimization.in
 int loopCount = 0;
 int multi = 2;

@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 const int max = 1073741824;
 int checkrange(int num){
     while (num > max) num = num - max;

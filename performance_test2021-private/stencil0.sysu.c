@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 const int width = 512;
 const int height = 1024;
 int image_in[width * height];

@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 void spmv(int n,int xptr[], int yidx[], int vals[], int b[], int x[]){
     int i, j, k;
     i = 0;

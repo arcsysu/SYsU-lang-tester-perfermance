@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int x[600][600][600];
 int y[600][600][600];
  

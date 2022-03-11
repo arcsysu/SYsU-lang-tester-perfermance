@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int x;  
 
 const int N = 2010;

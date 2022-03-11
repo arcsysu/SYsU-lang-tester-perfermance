@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int sheet1[500][500] = {};
 int sheet2[500][500] = {};
 int active = 1;

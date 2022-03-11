@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 const int maxlen = 2097152;
 int temp[maxlen], w[maxlen], dst[maxlen], c[maxlen];
 

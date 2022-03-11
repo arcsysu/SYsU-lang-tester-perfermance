@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int set(int a[], int pos, int d){
     const int bitcount = 30;
     int x[bitcount + 1] = {};

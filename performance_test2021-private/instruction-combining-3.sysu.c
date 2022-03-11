@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 //gcc instruction-combining.c sylib.c -include sylib.h -Wall -Wno-unused-result -o binary-instruction-combining && time ./binary-instruction-combining < instruction-combining.in
 int loopCount = 0;
 

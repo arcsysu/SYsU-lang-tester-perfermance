@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 int n;
 int meanless_calculation(int x, int y){
     int i = 0;

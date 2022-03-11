@@ -1,4 +1,4 @@
-#include <sylib.h>
+#include <sysy/sylib.h>
 //gcc dead-code-elimination.c sylib.c -include sylib.h -Wall -Wno-unused-result -Wno-unused-variable -o binary-dead-code-elimination && time ./binary-dead-code-elimination < dead-code-elimination.in
 int loopCount = 0;
 int global = 0;
