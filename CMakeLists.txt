@@ -1,3 +1,5 @@
 add_subdirectory(performance)
 add_subdirectory(performance_test2021-private)
 add_subdirectory(performance_test2021-public)
+add_subdirectory(performance_test2022-private)
+add_subdirectory(performance_test2022-public)
