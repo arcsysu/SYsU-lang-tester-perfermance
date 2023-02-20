@@ -20,6 +20,12 @@ jobs:
       image: wukan0621/sysu-lang
 
     steps:
+    - name: Prepare Git
+      run: |
+        apt-get update -y
+        apt-get upgrade -y
+        apt-get install --no-install-recommends -y git ca-certificates 
+
     - uses: actions/checkout@v3
 
     - name: Configure CMake
