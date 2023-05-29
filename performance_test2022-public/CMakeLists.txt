@@ -7,6 +7,6 @@ foreach(mainfile ${mains})
   target_link_libraries(sysu-tester-performance_test2022-public_${mainname}
                         sysy)
   target_include_directories(sysu-tester-performance_test2022-public_${mainname}
-                             PRIVATE ${CMAKE_SOURCE_DIR}/librarian)
+                             PRIVATE ${CMAKE_SOURCE_DIR}/librarian/include)
   install(TARGETS sysu-tester-performance_test2022-public_${mainname})
 endforeach()
