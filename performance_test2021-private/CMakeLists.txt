@@ -8,6 +8,6 @@ foreach(mainfile ${mains})
                         sysy)
   target_include_directories(
     sysu-tester-performance_test2021-private_${mainname}
-    PRIVATE ${CMAKE_SOURCE_DIR}/librarian/include)
+    PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/../../../../librarian/include)
   install(TARGETS sysu-tester-performance_test2021-private_${mainname})
 endforeach()
